@@ -1,0 +1,33 @@
+{
+  "name": "wepy-plugin-px2units",
+  "version": "0.1.0",
+  "description": "wepy px2rpx plugin",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingye/wepy-plugin-px2units.git"
+  },
+  "keywords": [
+    "wepy",
+    "postcss",
+    "plugin",
+    "px2rpx",
+    "px2units",
+    "pxtorpx",
+    "pxtounits"
+  ],
+  "author": "yingye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yingye/wepy-plugin-px2units/issues"
+  },
+  "homepage": "https://github.com/yingye/wepy-plugin-px2units#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-plumber": "^1.2.0"
+  }
+}
