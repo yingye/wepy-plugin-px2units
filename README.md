@@ -1,4 +1,4 @@
-# wepy框架px2rpx插件
+# wepy框架px2units插件
 
 ## 安装
 
