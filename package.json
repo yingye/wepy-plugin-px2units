@@ -1,6 +1,6 @@
 {
   "name": "wepy-plugin-px2units",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "wepy px2rpx plugin",
   "main": "dist/index.js",
   "repository": {

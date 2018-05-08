@@ -25,7 +25,7 @@ export default class {
 
             let prefixer = postcss([ px2units(this.setting.config) ]);
 
-            prefixer.process(op.code).then((result) => {
+            prefixer.process(op.code, { from: undefined }).then((result) => {
                 op.code = result.css;
                 op.next();
             }).catch(e => {
