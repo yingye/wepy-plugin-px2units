@@ -42,7 +42,7 @@ var _class = function () {
 
             var prefixer = (0, _postcss2.default)([(0, _postcssPx2units2.default)(this.setting.config)]);
 
-            prefixer.process(op.code, { from: undefined }).then(function (result) {
+            prefixer.process(op.code, { from: op.file }).then(function (result) {
                 op.code = result.css;
                 op.next();
             }).catch(function (e) {
