@@ -6,6 +6,7 @@ export default class {
     constructor(c = {}) {
         const def = {
             filter: new RegExp('\.(wxss)$'),
+            exclude: null,
             config: {}
         };
 
@@ -15,7 +16,7 @@ export default class {
 
         let setting = this.setting;
 
-        if (!setting.filter.test(op.file)) {
+        if ((setting.exclude && setting.exclude.test(op.file)) || !setting.filter.test(op.file)) {
             op.next();
         } else {
             op.output && op.output({
