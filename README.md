@@ -15,6 +15,8 @@ npm install wepy-plugin-px2units --save-dev
 module.exports.plugins = {
   'px2units': {
     filter: /\.wxss$/
+    // 忽略 abc.wxss 文件示例
+    // filter: /(?<!\/abc)\.wxss$/i
   },
 };
 ```
